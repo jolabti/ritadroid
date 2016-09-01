@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.guru.login.DetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/img"/>
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+                    <TableRow
+                        android:baselineAligned="true"
+                        android:layout_width="match_parent">
+
+                        <TextView
+                            android:text="Kode Ban :"
+                            android:textSize="7pt"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:id="@+id/kdBan"
+                            android:textSize="7pt"
+                            android:layout_width="200dp"
+                            android:maxWidth="140sp"
+                            android:inputType="text">
+
+                        </TextView>
+                    </TableRow>
+
+                    <TableRow
+                        android:baselineAligned="true"
+                        android:layout_width="match_parent">
+
+                        <TextView
+                            android:text="Nama Ban :"
+                            android:textSize="7pt"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:id="@+id/namaBan"
+                            android:textSize="7pt"
+                            android:layout_width="200dp"
+                            android:maxWidth="140sp"
+                            android:inputType="text">
+
+                        </TextView>
+                    </TableRow>
+                    <TableRow
+                        android:baselineAligned="true"
+                        android:layout_width="match_parent">
+
+                        <TextView
+                            android:text="Ukuran Ban :"
+                            android:textSize="7pt"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ukuranBan"
+                            android:textSize="7pt"
+                            android:layout_width="200dp"
+                            android:maxWidth="140sp"
+                            android:inputType="text">
+
+                        </TextView>
+                    </TableRow>
+
+                    <TableRow
+                        android:baselineAligned="true"
+                        android:layout_width="match_parent">
+
+                        <TextView
+                            android:text="Merek Ban :"
+                            android:textSize="7pt"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:id="@+id/merekBan"
+                            android:textSize="7pt"
+                            android:layout_width="200dp"
+                            android:maxWidth="140sp"
+                            android:inputType="text">
+
+                        </TextView>
+                    </TableRow>
+                    <TableRow
+                        android:baselineAligned="true"
+                        android:layout_width="match_parent">
+
+                        <TextView
+                            android:text="Stok Ban :"
+                            android:textSize="7pt"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:id="@+id/stokBan"
+                            android:textSize="7pt"
+                            android:layout_width="200dp"
+                            android:maxWidth="140sp"
+                            android:inputType="text">
+
+                        </TextView>
+                    </TableRow>
+
+                    <TableRow
+                        android:baselineAligned="true"
+                        android:layout_width="match_parent">
+
+                        <TextView
+                            android:text="Harga Ban :"
+                            android:textSize="7pt"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:id="@+id/hargaBan"
+                            android:textSize="7pt"
+                            android:layout_width="200dp"
+                            android:maxWidth="140sp"
+                            android:inputType="text">
+
+                        </TextView>
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+            <TextView
+                android:text="Silakan Masukkan Data Pemesanan"
+                android:textSize="8pt"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"/>
+            <TableRow
+                android:baselineAligned="true"
+                android:layout_width="match_parent">
+
+                <TextView
+                    android:text="Nama Lengkap :"
+                    android:textSize="7pt"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:id="@+id/namaLkp"
+                    android:textSize="7pt"
+                    android:layout_width="200dp"
+                    android:maxWidth="140sp"
+                    android:inputType="text">
+
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:baselineAligned="true"
+                android:layout_width="match_parent">
+
+                <TextView
+                    android:text="Email :"
+                    android:textSize="7pt"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:id="@+id/et_nama"
+                    android:textSize="7pt"
+                    android:layout_width="200dp"
+                    android:maxWidth="140sp"
+                    android:inputType="text">
+
+                </EditText>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Alamat :"
+                    android:textSize="7pt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"/>
+
+                <EditText android:layout_height="wrap_content"
+                    android:id="@+id/et_alamat"
+                    android:textSize="7pt"
+                    android:layout_width="200dp"
+                    android:maxWidth="140sp"
+                    android:inputType="text">
+                </EditText>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Nomor Tlp :"
+                    android:textSize="7pt"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"/>
+
+                <EditText android:layout_height="wrap_content"
+                    android:id="@+id/et_notel"
+                    android:textSize="7pt"
+                    android:layout_width="200dp"
+                    android:maxWidth="140sp"
+                    android:inputType="text">
+                </EditText>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Jumlah :"
+                    android:textSize="7pt"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"/>
+
+
+                <EditText android:id="@+id/et_jumlah"
+                    android:maxWidth="140sp"
+                    android:textSize="7pt"
+                    android:layout_height="wrap_content"
+                    android:layout_width="200dp"
+                    android:inputType="number">
+                </EditText>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Total :"
+                    android:textSize="7pt"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold" />
+
+                <EditText android:id="@+id/et_total"
+                    android:layout_height="wrap_content"
+                    android:layout_width="200dp"
+                    android:textSize="7pt"
+                    android:layout_gravity="center_vertical"
+                    android:inputType="number">
+                </EditText>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:text="Pembayaran :"
+                    android:textStyle="bold"
+                    android:textSize="7pt"/>
+
+                <RadioGroup
+                    android:id="@+id/bayar">
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tunai"
+                        android:text="Tunai"
+                        android:textSize="7pt"
+                        />
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/keredit"
+                        android:text="Keredit"
+                        android:textSize="7pt"
+                        />
+                </RadioGroup>
+            </TableRow>
+
+            <TableRow>
+                <Button
+                    android:text="SIMPAN"
+                    android:id="@+id/btn_simpan"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#2c3e50"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="7pt">
+                </Button>
+
+            </TableRow>
+
+            <TextView
+                android:text=""
+                android:id="@+id/error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold" />
+
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

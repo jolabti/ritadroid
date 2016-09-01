@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp" >
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="200dp"
+        android:fitsSystemWindows="true"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/kd_ban"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/image"
+        android:layout_toRightOf="@+id/image"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nama_ban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kd_ban"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/image" />
+    <TextView
+        android:id="@+id/merek_ban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama_ban"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/image" />
+
+    <TextView
+        android:id="@+id/harga_ban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/merek_ban"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/image" />
+
+    <TextView
+        android:id="@+id/ukuran_ban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/harga_ban"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/image" />
+
+    <TextView
+        android:id="@+id/stok_ban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ukuran_ban"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/image"/>
+
+</RelativeLayout><!-- From: file:/home/johan/Downloads/Rita/MyApplication/app/src/main/res/layout/item_listview.xml -->

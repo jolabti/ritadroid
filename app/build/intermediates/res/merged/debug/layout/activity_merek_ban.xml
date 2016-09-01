@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#00CCFF"
+    tools:context="com.guru.login.MerekBan">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <android.support.v7.widget.ContentFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/frame_layout"
+            android:layout_gravity="center"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3434dd">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textview"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textSize="12pt"
+                    android:textColor="#ffffff"
+                    android:text="Merek Ban mobil"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="20dp"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.ContentFrameLayout>
+
+        <android.support.v7.widget.ContentFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/frame_layout1"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <Button
+                    android:id="@+id/bridgestone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="BRIDGESTONE"
+                    android:background="#2c3e50"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="8pt"/>
+
+                <Button
+                    android:id="@+id/dunlop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="DUNLOP"
+                    android:background="#2c3e50"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="8pt"/>
+
+                <Button
+                    android:id="@+id/gajahTunggal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="GAAH TUNGGAL"
+                    android:background="#2c3e50"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="8pt"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.ContentFrameLayout>
+    </LinearLayout>
+</RelativeLayout>
+<!-- From: file:/home/johan/Downloads/Rita/MyApplication/app/src/main/res/layout/activity_merek_ban.xml -->
