@@ -25,8 +25,8 @@ public class Dunlop extends AppCompatActivity {
 
     // String arrayURL [] ={"http://www.json-generator.com/api/json/get/ccLAsEcOSq?indent=2"."http://www.json-generator.com/api/json/get/ccLAsEcOSq?indent=2"."http://www.json-generator.com/api/json/get/ccLAsEcOSq?indent=2"};
 
-    private final static String TAG = Bridgestone.class.getSimpleName();
-    String url = "http://192.168.1.14/rjbanadmin/index.php/maincontroller/get_product_controller_dunlop";
+    private final static String TAG = Dunlop.class.getSimpleName();
+    String url = "http://192.168.88.31/rjbanadmin/index.php/maincontroller/get_product_controller_dunlop";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -108,7 +108,7 @@ public class Dunlop extends AppCompatActivity {
                 book.setStokBan(jObject.getInt("stok"));
                 book.setUkuranBan(jObject.getString("ukuran"));
                 book.setMerkBan(jObject.getString("merk_ban"));
-                book.setImgUrl("http://192.168.43.144/rjbanadmin/media/" + jObject.getString("urlimage"));
+                book.setImgUrl("http://192.168.88.31/rjbanadmin/media/" + jObject.getString("urlimage"));
                 book.setKodeBan(jObject.getString("kd_ban"));
                 books.add(book);
             }

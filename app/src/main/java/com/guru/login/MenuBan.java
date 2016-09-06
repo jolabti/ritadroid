@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MenuBan extends AppCompatActivity {
-    Button merek, toko, bantuan, keluar;
+    Button merek, toko, bantuan, keluar , transaksionklik;
     Intent intentku = getIntent();
    // Bundle bd = intentku.getExtras();
     @Override
@@ -21,7 +21,7 @@ public class MenuBan extends AppCompatActivity {
         toko = (Button) findViewById(R.id.toko_button);
         bantuan = (Button) findViewById(R.id.bantuan_button);
         keluar = (Button) findViewById(R.id.keluar_button);
-
+        transaksionklik = (Button) findViewById(R.id.trxbutton);
         merek.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -112,5 +112,15 @@ public class MenuBan extends AppCompatActivity {
                         }).show();
             }
         });
+
+        transaksionklik.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent pindahkepemesanan = new Intent(MenuBan.this, Pemesanan.class);
+                startActivity(pindahkepemesanan);
+            }
+        });
     }
+
+
 }

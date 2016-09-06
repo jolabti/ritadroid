@@ -157,6 +157,9 @@ public class DetailActivity extends AppCompatActivity {
                     Log.d("hasil output", response.raw().toString());
 
                     Toast.makeText(DetailActivity.this, "Value saved", Toast.LENGTH_LONG).show();
+                    Intent keMenenuban = new Intent(DetailActivity.this, MenuBan.class);
+                    startActivity(keMenenuban);
+
                 } else {
                     Log.d("hasil output", response.raw().toString());
                     Toast.makeText(DetailActivity.this, response.body().getError() + "", Toast.LENGTH_LONG).show();

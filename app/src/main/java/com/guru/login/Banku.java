@@ -13,6 +13,17 @@ public class Banku {
     private int stokBan;
     private int totalharganya;
 
+
+
+    private String kodepemesanan;
+    private String emailpemesanan;
+    private String tanggalpemesanan;
+    private int jumlahpesanan;
+
+
+
+
+
     public int getTotalharganya() {
         return totalharganya;
     }
@@ -75,6 +86,38 @@ public class Banku {
 
     public void setStokBan(int stokBan) {
         this.stokBan = stokBan;
+    }
+
+    public String getKodepemesanan() {
+        return kodepemesanan;
+    }
+
+    public void setKodepemesanan(String kodepemesanan) {
+        this.kodepemesanan = kodepemesanan;
+    }
+
+    public String getEmailpemesanan() {
+        return emailpemesanan;
+    }
+
+    public void setEmailpemesanan(String emailpemesanan) {
+        this.emailpemesanan = emailpemesanan;
+    }
+
+    public String getTanggalpemesanan() {
+        return tanggalpemesanan;
+    }
+
+    public void setTanggalpemesanan(String tanggalpemesanan) {
+        this.tanggalpemesanan = tanggalpemesanan;
+    }
+
+    public int getJumlahpesanan() {
+        return jumlahpesanan;
+    }
+
+    public void setJumlahpesanan(int jumlahpesanan) {
+        this.jumlahpesanan = jumlahpesanan;
     }
 
 

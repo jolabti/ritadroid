@@ -26,7 +26,7 @@ public class SuccessActivity extends AppCompatActivity {
     // String arrayURL [] ={"http://www.json-generator.com/api/json/get/ccLAsEcOSq?indent=2"."http://www.json-generator.com/api/json/get/ccLAsEcOSq?indent=2"."http://www.json-generator.com/api/json/get/ccLAsEcOSq?indent=2"};
 
     private final static String TAG = SuccessActivity.class.getSimpleName();
-    String url = "http://192.168.1.14/rjbanadmin/index.php/maincontroller/get_product_controller_json";
+    String url = "http://192.168.88.31/rjbanadmin/index.php/maincontroller/get_product_controller_json";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

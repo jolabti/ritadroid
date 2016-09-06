@@ -1,6 +1,7 @@
 package com.guru.login;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -111,7 +112,7 @@ public class Register extends AppCompatActivity {
                 try {
 
                     // Enter URL address where your php file resides
-                    url = new URL("http://192.168.1.14/rjbanadmin/register.php");
+                    url = new URL("http://192.168.88.31/rjbanadmin/register.php");
 
                 } catch (MalformedURLException e) {
                     // TODO Auto-generated catch block
@@ -198,6 +199,8 @@ public class Register extends AppCompatActivity {
                 use sharedPreferences of Android. and logout button to clear sharedPreferences.
                  */
                     Toast.makeText(Register.this, "Berhasil Nambah", Toast.LENGTH_LONG).show();
+                    Intent backtologin = new Intent(Register.this,MainActivity.class);
+                    startActivity(backtologin);
 
                 } else if (result.equalsIgnoreCase("false")) {
 
