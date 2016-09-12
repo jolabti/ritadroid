@@ -26,14 +26,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.guru.login.SuccessActivity" />
-        <activity android:name="com.guru.login.Register" />
-        <activity android:name="com.guru.login.DetailActivity" />
-        <activity android:name="com.guru.login.Pemesanan" />
-        <activity android:name="com.guru.login.Dunlop" />
-        <activity android:name="com.guru.login.Bridgestone" />
-        <activity android:name="com.guru.login.MenuBan" />
-        <activity android:name="com.guru.login.MerekBan" />
+        <activity
+            android:name="com.guru.login.SuccessActivity"
+            android:label="Daftar List Produk" />
+        <activity
+            android:name="com.guru.login.Register"
+            android:label="Registrasi" />
+        <activity
+            android:name="com.guru.login.DetailActivity"
+            android:label="Detil Produk" />
+        <activity
+            android:name="com.guru.login.Pemesanan"
+            android:label="Pemesanan Anda" />
+        <activity
+            android:name="com.guru.login.Dunlop"
+            android:label="Dunlop Area" />
+        <activity
+            android:name="com.guru.login.Bridgestone"
+            android:label="Bridgestone Area" />
+        <activity
+            android:name="com.guru.login.MenuBan"
+            android:label="Menu Ban" />
+        <activity
+            android:name="com.guru.login.MerekBan"
+            android:label="Merk Ban" />
     </application>
 
 </manifest>

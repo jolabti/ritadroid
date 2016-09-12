@@ -18,7 +18,7 @@ import retrofit.Retrofit;
 public class Pemesanan extends AppCompatActivity {
 
     private RecyclerView recyclerView;
-    private ArrayList<AndroidVersion> data;
+    private ArrayList<BookArray> data;
     private DataAdapter adapter;
 
     @Override
@@ -39,7 +39,7 @@ public class Pemesanan extends AppCompatActivity {
 
     private void loadJSON(){
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://api.learn2crack.com")
+                .baseUrl("http://192.168.1.3/rjbanadmin/index.php/maincontroller/getjoinpesanancontroller/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         RequestInterface request = retrofit.create(RequestInterface.class);
@@ -48,7 +48,7 @@ public class Pemesanan extends AppCompatActivity {
             @Override
             public void onResponse(Response<JSONResponse> response, Retrofit retrofit) {
                 JSONResponse jsonResponse = response.body();
-                data = new ArrayList<>(Arrays.asList(jsonResponse.getAndroid()));
+                data = new ArrayList<>(Arrays.asList(jsonResponse.getBook_array()));
                 adapter = new DataAdapter(data);
                 recyclerView.setAdapter(adapter);
             }

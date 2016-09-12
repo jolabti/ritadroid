@@ -2,81 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jar="/home/johan/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/classes-686d568c7b51eae0702442d49ab2502bbc90c8fa.jar" />
-    </item>
-    <item
-        jar="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0-6bbed058aa8207c9b93bb2862850da3d29d5459e.jar" />
-    </item>
-    <item
-        jar="/home/johan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
-        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-b67baabe01a03880322d8f930de3c63bb68b382d.jar" />
-    </item>
-    <item
-        jar="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/classes-354bf11e1af64b30898defe66403bb01d8bd84f8.jar" />
-    </item>
-    <item
-        jar="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="bc599eb9531da9d18bc58ec4eb0b1a1d895f6839">
-        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/classes-a4f915deb80ae8da7d59134be0051f8455a97ea7.jar" />
-    </item>
-    <item
-        jar="/home/johan/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0-6c10ddb74b9ce44a8224614c3fc2ba30b605c7bb.jar" />
-    </item>
-    <item
-        jar="/home/johan/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
-        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/library-1.0.19-04edd9cae152dffbbbd1110650cc3e067749fda4.jar" />
-    </item>
-    <item
-        jar="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/classes-a363b5a11ade05147b7d27d798809d44acdb1899.jar" />
-    </item>
-    <item
-        jar="/home/johan/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/okio-1.6.0-2e7b69a4533070c107efcb4c2b3976491502cec2.jar" />
-    </item>
-    <item
-        jar="/home/johan/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.1/f5aa318bda4c6c8d688c9d00b90681dcd82ce636/httpcore-4.4.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="f5aa318bda4c6c8d688c9d00b90681dcd82ce636">
-        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/httpcore-4.4.1-1a627e889a6ca25d1dc14b549762091d4d9e110f.jar" />
-    </item>
-    <item
-        jar="/home/johan/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/2.0.0-beta2/880d9e0997b2d1bfc98e0d121ced33ee5d04aac4/retrofit-2.0.0-beta2.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="880d9e0997b2d1bfc98e0d121ced33ee5d04aac4">
-        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/retrofit-2.0.0-beta2-20a69e756d5e44cb798c773656fd7a68bc2bf4b5.jar" />
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-a4700345a3c2063f3d2e85d82c5a8a8b6950b07d.jar" />
     </item>
     <item
         jar="/home/johan/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
@@ -93,20 +23,6 @@
         <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/classes-00fc186e7440153c40d9948bc3f2312aabce034d.jar" />
     </item>
     <item
-        jar="/home/johan/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-a4700345a3c2063f3d2e85d82c5a8a8b6950b07d.jar" />
-    </item>
-    <item
-        jar="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/classes-e19f62b9f1695f81a5c25a479e0c5f1235b25cbf.jar" />
-    </item>
-    <item
         jar="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -119,6 +35,90 @@
         revision="23.0.1"
         sha1="392c3d09e0f5e7087544093cc0cb23bb9c7af5fa">
         <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.0-beta2-6805d42241183d9af6def0758e3ec91dd10e55ca.jar" />
+    </item>
+    <item
+        jar="/home/johan/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.1/f5aa318bda4c6c8d688c9d00b90681dcd82ce636/httpcore-4.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f5aa318bda4c6c8d688c9d00b90681dcd82ce636">
+        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/httpcore-4.4.1-1a627e889a6ca25d1dc14b549762091d4d9e110f.jar" />
+    </item>
+    <item
+        jar="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/classes-e19f62b9f1695f81a5c25a479e0c5f1235b25cbf.jar" />
+    </item>
+    <item
+        jar="/home/johan/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0-6c10ddb74b9ce44a8224614c3fc2ba30b605c7bb.jar" />
+    </item>
+    <item
+        jar="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/classes-354bf11e1af64b30898defe66403bb01d8bd84f8.jar" />
+    </item>
+    <item
+        jar="/home/johan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-b67baabe01a03880322d8f930de3c63bb68b382d.jar" />
+    </item>
+    <item
+        jar="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/classes-a363b5a11ade05147b7d27d798809d44acdb1899.jar" />
+    </item>
+    <item
+        jar="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0-6bbed058aa8207c9b93bb2862850da3d29d5459e.jar" />
+    </item>
+    <item
+        jar="/home/johan/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/2.0.0-beta2/880d9e0997b2d1bfc98e0d121ced33ee5d04aac4/retrofit-2.0.0-beta2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="880d9e0997b2d1bfc98e0d121ced33ee5d04aac4">
+        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/retrofit-2.0.0-beta2-20a69e756d5e44cb798c773656fd7a68bc2bf4b5.jar" />
+    </item>
+    <item
+        jar="/home/johan/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/okio-1.6.0-2e7b69a4533070c107efcb4c2b3976491502cec2.jar" />
+    </item>
+    <item
+        jar="/home/johan/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/library-1.0.19-04edd9cae152dffbbbd1110650cc3e067749fda4.jar" />
+    </item>
+    <item
+        jar="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/classes-686d568c7b51eae0702442d49ab2502bbc90c8fa.jar" />
+    </item>
+    <item
+        jar="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="bc599eb9531da9d18bc58ec4eb0b1a1d895f6839">
+        <dex dex="/home/johan/Downloads/Rita/MyApplication/app/build/intermediates/pre-dexed/debug/classes-a4f915deb80ae8da7d59134be0051f8455a97ea7.jar" />
     </item>
 
 </items>

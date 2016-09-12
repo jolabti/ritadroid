@@ -282,28 +282,9 @@
             </TableRow>
 
             <TableRow>
-                <TextView
-                    android:text="Pembayaran :"
-                    android:textStyle="bold"
-                    android:textSize="7pt"/>
 
                 <RadioGroup
-                    android:id="@+id/bayar">
-                    <CheckBox
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/tunai"
-                        android:text="Tunai"
-                        android:textSize="7pt"
-                        />
-                    <CheckBox
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/keredit"
-                        android:text="Keredit"
-                        android:textSize="7pt"
-                        />
-                </RadioGroup>
+                    android:id="@+id/bayar"></RadioGroup>
             </TableRow>
 
             <TableRow>

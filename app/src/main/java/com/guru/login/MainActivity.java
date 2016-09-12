@@ -2,6 +2,7 @@ package com.guru.login;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -26,11 +27,14 @@ public class MainActivity extends AppCompatActivity {
 
     // CONNECTION_TIMEOUT and READ_TIMEOUT are in milliseconds
 
-    public static final int CONNECTION_TIMEOUT=10000;
-    public static final int READ_TIMEOUT=15000;
+    public static final int CONNECTION_TIMEOUT = 10000;
+    public static final int READ_TIMEOUT = 15000;
     private EditText etEmail;
     private EditText etPassword;
     private Button tvRegistered;
+    SharedPreferences sh_Pref;
+    SharedPreferences.Editor toEdit;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         etPassword = (EditText) findViewById(R.id.password);
         tvRegistered = (Button) findViewById(R.id.registration_button);
 
-      tvRegistered.setOnClickListener(new View.OnClickListener() {
+        tvRegistered.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -51,6 +55,14 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    public void sharedPrefernces() {
+        sh_Pref = getSharedPreferences("LoginCredentials", MODE_PRIVATE);
+        toEdit = sh_Pref.edit();
+        toEdit.putString("Username", etEmail.getText().toString());
+        toEdit.putString("Password", etPassword.getText().toString());
+        toEdit.commit();
+    }
+
 
     // Triggers when LOGIN Button clicked
     public void checkLogin(View arg0) {
@@ -58,14 +70,13 @@ public class MainActivity extends AppCompatActivity {
         // Get text from email and passord field
         final String email = etEmail.getText().toString();
         final String password = etPassword.getText().toString();
-
-            // Initialize  AsyncLogin() class with email and password
-            new AsyncLogin().execute(email,password);
+        sharedPrefernces();
+        // Initialize  AsyncLogin() class with email and password
+        new AsyncLogin().execute(email, password);
 
     }
 
-    private class AsyncLogin extends AsyncTask<String, String, String>
-    {
+    private class AsyncLogin extends AsyncTask<String, String, String> {
         ProgressDialog pdLoading = new ProgressDialog(MainActivity.this);
         HttpURLConnection conn;
         URL url = null;
@@ -80,12 +91,13 @@ public class MainActivity extends AppCompatActivity {
             pdLoading.show();
 
         }
+
         @Override
         protected String doInBackground(String... params) {
             try {
 
                 // Enter URL address where your php file resides
-                url = new URL("http://192.168.88.31/rjbanadmin/login.inc.php");
+                url = new URL("http://192.168.1.3/rjbanadmin/login.inc.php");
 
             } catch (MalformedURLException e) {
                 // TODO Auto-generated catch block
@@ -94,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
             }
             try {
                 // Setup HttpURLConnection class to send and receive data from php and mysql
-                conn = (HttpURLConnection)url.openConnection();
+                conn = (HttpURLConnection) url.openConnection();
                 conn.setReadTimeout(READ_TIMEOUT);
                 conn.setConnectTimeout(CONNECTION_TIMEOUT);
                 conn.setRequestMethod("POST");
@@ -143,11 +155,11 @@ public class MainActivity extends AppCompatActivity {
                     }
 
                     // Pass data to onPostExecute method
-                    return(result.toString());
+                    return (result.toString());
 
-                }else{
+                } else {
 
-                    return("unsuccessful");
+                    return ("unsuccessful");
                 }
 
             } catch (IOException e) {
@@ -167,18 +179,17 @@ public class MainActivity extends AppCompatActivity {
 
             pdLoading.dismiss();
 
-            if(result.equalsIgnoreCase("true"))
-            {
+            if (result.equalsIgnoreCase("true")) {
                 /* Here launching another activity when login successful. If you persist login state
                 use sharedPreferences of Android. and logout button to clear sharedPreferences.
                  */
 
-                Intent intent = new Intent(MainActivity.this,MenuBan.class);
-                intent.putExtra("emailsession",  etEmail.getText().toString() );
+                Intent intent = new Intent(MainActivity.this, MenuBan.class);
+                intent.putExtra("emailsession", etEmail.getText().toString());
                 startActivity(intent);
                 MainActivity.this.finish();
 
-            }else if (result.equalsIgnoreCase("false")){
+            } else if (result.equalsIgnoreCase("false")) {
 
                 // If username and password does not match display a error message
                 Toast.makeText(MainActivity.this, "Invalid email or password", Toast.LENGTH_LONG).show();

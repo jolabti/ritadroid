@@ -25,7 +25,7 @@ public class Bridgestone extends AppCompatActivity {
 
 
     private final static String TAG = SuccessActivity.class.getSimpleName();
-    String url = "http://192.168.88.31/rjbanadmin/index.php/maincontroller/get_product_controller_json";
+    String url = "http://192.168.1.3/rjbanadmin/index.php/maincontroller/get_product_controller_bridgestone";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -108,7 +108,7 @@ public class Bridgestone extends AppCompatActivity {
                 book.setStokBan(jObject.getInt("stok"));
                 book.setUkuranBan(jObject.getString("ukuran"));
                 book.setMerkBan(jObject.getString("merk_ban"));
-                book.setImgUrl("http://apidroid.devgolan.web.id/media/" + jObject.getString("urlimage"));
+                book.setImgUrl("http://192.168.1.3/rjbanadmin/media/" + jObject.getString("urlimage"));
                 book.setKodeBan(jObject.getString("kd_ban"));
                 books.add(book);
             }

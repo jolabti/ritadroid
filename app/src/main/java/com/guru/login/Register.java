@@ -112,7 +112,7 @@ public class Register extends AppCompatActivity {
                 try {
 
                     // Enter URL address where your php file resides
-                    url = new URL("http://192.168.88.31/rjbanadmin/register.php");
+                    url = new URL("http://192.168.1.3/rjbanadmin/register.php");
 
                 } catch (MalformedURLException e) {
                     // TODO Auto-generated catch block

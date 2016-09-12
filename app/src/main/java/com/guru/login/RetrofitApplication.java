@@ -52,7 +52,7 @@ public class RetrofitApplication extends Application {
         final Retrofit retrofit = new Retrofit.Builder()
                 .addConverterFactory(new ToStringConverterFactory())
                 .addConverterFactory(GsonConverterFactory.create(gson))
-                .baseUrl("http://192.168.88.31/rjbanadmin")
+                .baseUrl("http://192.168.1.3/rjbanadmin/index.php/maincontroller/")
                 .client(client)
                 .build();
         taskServiceAPI = retrofit.create(RegisterAPI.class);

@@ -127,7 +127,8 @@ public class DetailActivity extends AppCompatActivity {
                 Log.d("Input Slidus", s1idus);
                 Log.d("Hasil Kali", Integer.toString(hitungTotal));
 
-                insertData(s1idus, s2nama,s1idus, s1idus, s1idus, s1idus, i8total, i8total);
+                insertData(s1idus, nml.getText().toString(),tvIdKodeBan.getText().toString(),
+                        eml.getText().toString(), alm.getText().toString(), notelp.getText().toString(), i8total, i8total);
 
                 //    SendDataToServer(s1idus, s2nama, s3kodeban, s3kodeban, s3kodeban, s3kodeban, i7jumlah, i7jumlah);
             }

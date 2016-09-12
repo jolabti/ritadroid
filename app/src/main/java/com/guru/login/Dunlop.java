@@ -26,7 +26,7 @@ public class Dunlop extends AppCompatActivity {
     // String arrayURL [] ={"http://www.json-generator.com/api/json/get/ccLAsEcOSq?indent=2"."http://www.json-generator.com/api/json/get/ccLAsEcOSq?indent=2"."http://www.json-generator.com/api/json/get/ccLAsEcOSq?indent=2"};
 
     private final static String TAG = Dunlop.class.getSimpleName();
-    String url = "http://192.168.88.31/rjbanadmin/index.php/maincontroller/get_product_controller_dunlop";
+    String url = "http://192.168.1.3/rjbanadmin/index.php/maincontroller/get_product_controller_dunlop";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

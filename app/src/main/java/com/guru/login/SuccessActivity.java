@@ -26,7 +26,7 @@ public class SuccessActivity extends AppCompatActivity {
     // String arrayURL [] ={"http://www.json-generator.com/api/json/get/ccLAsEcOSq?indent=2"."http://www.json-generator.com/api/json/get/ccLAsEcOSq?indent=2"."http://www.json-generator.com/api/json/get/ccLAsEcOSq?indent=2"};
 
     private final static String TAG = SuccessActivity.class.getSimpleName();
-    String url = "http://192.168.88.31/rjbanadmin/index.php/maincontroller/get_product_controller_json";
+    String url = "http://192.168.1.3/rjbanadmin/index.php/maincontroller/get_product_controller_gajahtunggal";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,33 +34,7 @@ public class SuccessActivity extends AppCompatActivity {
         setContentView(R.layout.activity_success);
 
         listview = (ListView) findViewById(R.id.listview);
-//        spin = (Spinner) findViewById(R.id.spinerProduct);
-//        List<String> categories = new ArrayList<String>();
-//        categories.add("Bridgestone");
-//        categories.add("Dunlop");
-//        categories.add("Batlax");
-//        categories.add("All");
-//
-//        ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, categories);
-//
-//
-//        dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-//
-//
-//        spin.setAdapter(dataAdapter);
 
-         /*if(spin.getSelectedItem()=="Bridgestone"){
-             url = "http://192.168.1.14/rjbanadmin/index.php/maincontroller/get_product_controller_dunlop";
-
-             setListViewAdapter();
-             getDataFromInternet();
-         }else if(spin.getSelectedItem()=="Dunlop"){
-
-             url = "http://192.168.1.14/rjbanadmin/index.php/maincontroller/get_product_controller_json";
-
-             setListViewAdapter();
-             getDataFromInternet();
-         }*/
 
 
          setListViewAdapter();
@@ -135,7 +109,7 @@ public class SuccessActivity extends AppCompatActivity {
                 book.setStokBan(jObject.getInt("stok"));
                 book.setUkuranBan(jObject.getString("ukuran"));
                 book.setMerkBan(jObject.getString("merk_ban"));
-                book.setImgUrl("http://apidroid.devgolan.web.id/media/" + jObject.getString("urlimage"));
+                book.setImgUrl("http://192.168.1.3/rjbanadmin/media/" + jObject.getString("urlimage"));
                 book.setKodeBan(jObject.getString("kd_ban"));
                 books.add(book);
             }

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:2:1-33:12
+ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:2:1-54:12
 	package
 		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:3:5-29
 		INJECTED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml
@@ -26,7 +26,7 @@ ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest
 	android:name
 		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:7:22-73
 application
-ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:9:5-31:19
+ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:9:5-52:19
 MERGED from [com.android.support:appcompat-v7:23.4.0] /home/johan/Downloads/Rita/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/johan/Downloads/Rita/MyApplication/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/johan/Downloads/Rita/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
@@ -73,37 +73,53 @@ ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest
 	android:name
 		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:20:27-74
 activity#com.guru.login.SuccessActivity
-ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:23:9-53
+ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:23:9-26:15
+	android:label
+		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:24:13-47
 	android:name
 		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:23:19-50
 activity#com.guru.login.Register
-ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:24:9-46
+ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:27:9-29:15
+	android:label
+		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:28:13-39
 	android:name
-		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:24:19-43
+		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:27:19-43
 activity#com.guru.login.DetailActivity
-ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:25:9-52
+ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:30:9-33:15
+	android:label
+		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:31:13-41
 	android:name
-		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:25:19-49
+		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:30:19-49
 activity#com.guru.login.Pemesanan
-ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:26:9-47
+ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:34:9-36:15
+	android:label
+		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:26:19-44
+		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:34:19-44
 activity#com.guru.login.Dunlop
-ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:27:9-44
+ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:37:9-40:15
+	android:label
+		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:38:13-40
 	android:name
-		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:27:19-41
+		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:37:19-41
 activity#com.guru.login.Bridgestone
-ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:28:9-49
+ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:41:9-43:15
+	android:label
+		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:42:13-45
 	android:name
-		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:28:19-46
+		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:41:19-46
 activity#com.guru.login.MenuBan
-ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:29:9-45
+ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:44:9-47:15
+	android:label
+		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:45:13-37
 	android:name
-		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:29:19-42
+		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:44:19-42
 activity#com.guru.login.MerekBan
-ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:30:9-55
+ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:48:9-51:25
+	android:label
+		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:30:19-43
+		ADDED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml:48:19-43
 uses-sdk
 INJECTED from /home/johan/Downloads/Rita/MyApplication/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.4.0] /home/johan/Downloads/Rita/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:21:5-23:78

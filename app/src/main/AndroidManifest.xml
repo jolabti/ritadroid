@@ -20,14 +20,35 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SuccessActivity" />
-        <activity android:name=".Register" />
-        <activity android:name=".DetailActivity" />
-        <activity android:name=".Pemesanan" />
-        <activity android:name=".Dunlop" />
-        <activity android:name=".Bridgestone" />
-        <activity android:name=".MenuBan" />
-        <activity android:name=".MerekBan"></activity>
+        <activity android:name=".SuccessActivity"
+            android:label="Daftar List Produk"
+
+            />
+        <activity android:name=".Register"
+            android:label="Registrasi"
+            />
+        <activity android:name=".DetailActivity"
+            android:label="Detil Produk"
+
+            />
+        <activity android:name=".Pemesanan"
+            android:label="Pemesanan Anda"
+            />
+        <activity android:name=".Dunlop"
+            android:label="Dunlop Area"
+
+            />
+        <activity android:name=".Bridgestone"
+            android:label="Bridgestone Area"
+            />
+        <activity android:name=".MenuBan"
+            android:label="Menu Ban"
+
+            />
+        <activity android:name=".MerekBan"
+            android:label="Merk Ban"
+
+            ></activity>
     </application>
 
 </manifest>
