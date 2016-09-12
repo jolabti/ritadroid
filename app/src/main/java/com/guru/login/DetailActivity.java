@@ -64,7 +64,7 @@ public class DetailActivity extends AppCompatActivity {
     String s1idus, s2nama, s3kodeban, s4email, s5alamat, s6notelp, i7jumlah;
     int i8total=100;
 
-    int hitungTotal;
+    int hitungTotal, varHarga, varJumlah;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,7 +75,8 @@ public class DetailActivity extends AppCompatActivity {
         tvIdNamaBan = (TextView) findViewById(R.id.namaBan);
         tvIdMerekBan = (TextView) findViewById(R.id.merekBan);
         tvIdUkuranBan = (TextView) findViewById(R.id.ukuranBan);
-        tvIdStokBan = (TextView) findViewById(R.id.hargaBan);
+        tvIdStokBan = (TextView) findViewById(R.id.stokBan);
+        tvIdHargaBan = (TextView)findViewById(R.id.hargaBan);
         btnSimpan = (Button) findViewById(R.id.btn_simpan);
 
 
@@ -94,7 +95,7 @@ public class DetailActivity extends AppCompatActivity {
             String getName = (String) bd.get("name");
             String acceptedUrlImage = (String) bd.get("urltodetail");
             String kodeB = (String) bd.get("kodebandetail");
-            //       String hargaB = (String) bd.get("hargabandetail");
+            String hargaB = (String) bd.get("hargabandetail");
             String merkB = (String) bd.get("merkbandetail");
             String ukuranB = (String) bd.get("ukuranbandetail");
             String stokB = (String) bd.get("stokbandetail");
@@ -103,7 +104,7 @@ public class DetailActivity extends AppCompatActivity {
             tvIdNamaBan.setText(getName);
             tvIdKodeBan.setText(kodeB);
             tvIdMerekBan.setText(merkB);
-            //     tvIdHargaBan.setText(hargaB);
+            tvIdHargaBan.setText(hargaB);
             tvIdUkuranBan.setText(ukuranB);
             tvIdStokBan.setText(stokB);
 
@@ -123,12 +124,15 @@ public class DetailActivity extends AppCompatActivity {
 
                 s1idus = tvIdKodeBan.getText().toString();
                 s2nama = nml.getText().toString();
+                varHarga= Integer.parseInt(tvIdHargaBan.getText().toString());
+                varJumlah = Integer.parseInt(juml.getText().toString());
+                hitungTotal = varHarga * varJumlah  ;
                 //insert();
                 Log.d("Input Slidus", s1idus);
                 Log.d("Hasil Kali", Integer.toString(hitungTotal));
 
                 insertData(s1idus, nml.getText().toString(),tvIdKodeBan.getText().toString(),
-                        eml.getText().toString(), alm.getText().toString(), notelp.getText().toString(), i8total, i8total);
+                        eml.getText().toString(), alm.getText().toString(), notelp.getText().toString(), hitungTotal, varJumlah);
 
                 //    SendDataToServer(s1idus, s2nama, s3kodeban, s3kodeban, s3kodeban, s3kodeban, i7jumlah, i7jumlah);
             }
